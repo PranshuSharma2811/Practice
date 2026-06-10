@@ -9,6 +9,7 @@ public:
             maxi = max(maxi,sum);
             if(sum<0){
                 sum=0;
+                // this is new line added
             }
         }
         return maxi;
