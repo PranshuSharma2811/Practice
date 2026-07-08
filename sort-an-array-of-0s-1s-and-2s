@@ -8,7 +8,8 @@ class Solution {
             if(arr[mid]==0){
                 swap(arr[low],arr[mid]);
                 low++;
-                mid++;
+                mid++;//this is extra code
+                
             }
             else if(arr[mid]==1){
                 mid++;
