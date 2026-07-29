@@ -1,0 +1,7 @@
+class Solution {
+public:
+    int kthSmallest(vector<int> &arr, int k) {
+        nth_element(arr.begin(), arr.begin() + (k - 1));
+        return arr[k - 1];
+    }
+};
