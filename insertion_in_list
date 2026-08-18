@@ -1,0 +1,10 @@
+# Initial list
+arr = [10, 20, 30, 40, 50]
+
+# 1. Insert at a specific index using insert(index, element)
+arr.insert(2, 25)  # Inserts 25 at index 2
+print("After insert(2, 25):", arr)
+
+# 2. Insert at the end using append(element)
+arr.append(60)
+print("After append(60):", arr)
